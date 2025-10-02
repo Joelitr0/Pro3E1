@@ -14,9 +14,9 @@ function calcular() {
   var resultado = document.getElementById("resultado");
   resultado.style.display = "block";
   resultado.innerHTML = `
-    <p><strong>Area de la superficie:</strong> ${areaSuperficie.toLocaleString()} cm2</p>
+    <p><strong>Area de la superficie:</strong> ${areaSuperficie} cm2</p>
     <p><strong>Area de un azulejo:</strong> ${areaAzulejo} cm2</p>
     <p><strong>Cantidad de azulejos:</strong> ${cantidadAzulejos}</p>
-    <p><strong>Precio total:</strong> $${precioTotal.toFixed(2)}</p>
+    <p><strong>Precio total:</strong> $${precioTotal}</p>
   `;
 }
